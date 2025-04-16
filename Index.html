@@ -1,273 +1,219 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap");
-    </style>
-    <link href="style.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <title>TheWebSkills</title>
-  </head>
-  <body>
-    <nav>
-      <img class="logo" src="img/logo.png" alt="logo-thewebskills" />
 
-      <input type="checkbox" id="burger-toggle" />
-      <label for="burger-toggle" class="burger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-      <ul class="nav-menu">
-        <li><a href="https://www.google.fr/">Blog</a></li>
-        <li><a href="https://www.google.fr/">contact</a></li>
-      </ul>
-    </nav>
+  <title>Gaming Campus</title>
 
-    <header class="header-background">
-      <div class="divider">
-        <h1 class="titre">Bienvenue chez The Webskills</h1>
-        <p class="sous-titre">
-          Au cœur de vos défis,<br />
-          talents se transforment en solutions.
-        </p>
-        <button class="prdv">
-          <a href="https://www.google.fr/"
-            ><i class="fa-solid fa-calendar-days"></i> Prendre rendez-vous</a
-          >
-        </button>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="https://www.google.fr/" >Accueil</a></li>
+      <li><a href="https://www.google.fr/">business school</a></li>
+      <li><a href="https://www.google.fr/">ecole esport</a></li>
+      <li><a href="https://www.google.fr/">cours de jeux vidéo</a></li>
+      <li><a href="https://www.google.fr/">le campus</a></li>
+      <li><a href="https://www.google.fr/">newsroom</a></li>
+      <li><a href="https://www.google.fr/">parents</a></li>
+      <li id="language">FR | EN</li>
+    </ul>
+  </nav>
+  <header>
+    <div class="main-header">
+      <div id="logo">
+        <img src="./assets/img/logo-gc-hero.png" alt="logo">
       </div>
-    </header>
+      <h1>passion. professionnalisme. performance.</h1>
+      <button>gaming campus en video <i class="fas fa-angle-right"></i></button>
+    </div>
+  </header>
 
-    <section class="mission">
-      <div class="mission-container">
-        <div class="mission-design">
-          <p>La mission</p>
+  <div class="header-text">
+    <p>Imaginé par des professionnels des jeux vidéo et de l'éducation, Gaming Campus est un lieu unique pour révéler
+      les talents et développer les compétences.</p>
+  </div>
+
+  <section class="icon-part">
+    <div class="icon-part-container">
+      <div class="list-icon-part">
+        <div class="lip-logo">
+          <img src="./assets/img/logo-gbs-home.png" alt="logo GBS">
         </div>
+        <h3>gaming business school</h3>
+        <p>formez-vous dans la première école de management dédiée aux enjeux et métiers du jeuvidéo.</p>
+        <button>en savoir plus</button>
       </div>
-      <div class="mission-text">
-        <h2>The Webskillls</h2>
-        <p>
-          The Webskills est une plateforme d’apprentissage par le travail qui
-          aide les formateurs, les entreprises et les apprenants à collaborer
-          sur des projets réels afin de combler le fossé entre l’éducation et
-          l’emploi.
-        </p>
-      </div>
-    </section>
-
-    <section class="border-section">
-      <div class="impact-container">
-        <div class="impact">
-          <h2>Notre impact cette année</h2>
+      <div class="list-icon-part">
+        <div class="lip-logo">
+          <img src="./assets/img/logo-ga-home.png" alt="logo gaming academy">
         </div>
-        <div class="number">
-          <div class="number1">
-            <p class="number-style" data-target="10">0</p>
-            <div class="bar"></div>
-            <p>Projets réalisés</p>
+        <h3>gaming academy</h3>
+        <p>Entrainez-vous dans des conditions optimales pour devenir esportif professionnel.</p>
+        <button>en savoir plus</button>
+      </div>
+      <div class="list-icon-part">
+        <div class="lip-logo">
+          <img src="./assets/img/logo-gg-home.png" alt="logo gaming guru">
+        </div>
+        <h3>gaming guru</h3>
+        <p>Jouez avec les meilleurs gamers pour vous améliorer dans vos jeux vidéo préférés.</p>
+        <button>en savoir plus</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="news-part">
+    <div class="header-news">
+      <div class="left-part">
+        <h2>les news du campus</h2>
+        <p>Suivez l'actualité de Gaming Campus, de G.Guru, G.B.S et G.Academy.</p>
+      </div>
+      <div class="right-part">
+        <button>la newsroom <i class="fas fa-angle-right"></i></button>
+      </div>
+    </div>
+    <div class="main-news">
+      <div class="main-news-container">
+        <div>
+          <div class="mn-pic">
+            <img src="./assets/img/ri8decembre.jpg" alt="réunion d'information">
           </div>
-          <div class="number2">
-            <p class="number-style" data-target="250">0</p>
-            <div class="bar"></div>
-            <p>Etudiants actifs</p>
-          </div>
-          <div class="number3">
-            <p class="number-style" data-target="500">0</p>
-            <div class="bar"></div>
-            <p>Heures d’apprentissage appliqué</p>
+          <h4>Réunion d'information 19 décembre</h4>
+          <p>Venez à note rencontre lors de cette réunion d'information. Témoignages des étudiants / Ateliers sur la
+            pédagogige par projet "Active Learning by Gaming Campus" / Découverte des locaux / Rencontre avec l'équipe
+            pédagogique / Questions réponses.</p>
+          <div class="link">
+            <a href="#">Sur inscription <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="border-section2">
-      <div class="border-left">
-        <div class="impact1">
-          <h2>Entreprises & Organisations</h2>
-        </div>
-        <div class="bar2"></div>
-        <p>
-          Développez votre entreprise en accédant à un vivier d’étudiants
-          talentueux et tournés vers l’avenir pour mener à bien vos projets.
-          Tout en contribuant à façonner l’avenir du travail.
-        </p>
-      </div>
-      <div class="border-right">
-        <div class="impact1">
-          <h2>Entreprises & Organisations</h2>
-          <div class="bar2"></div>
-          <p>
-            Trouvez des projets d’apprentissage par l’expérience à intégrer dans
-            votre programme d’études, afin d’aider les étudiants à acquérir une
-            expérience du monde réel et à accroître leur employabilité.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="slide-bar">
-      <div class="title">
-        <h2>La confiance de nos partenaires</h2>
-      </div>
-      <div class="bar3"></div>
-      <div class="logos-defilant">
-        <div class="logo-track">
-          <img src="./img/Logo_Europe1.png" alt="Logo_Europe1" />
-          <img src="./img/logo-je-stocke.png" alt="logo-je-stocke" />
-          <img src="./img/Logo-LPT.svg" alt="Logo-LPT" />
-          <img src="./img/logo-le-poteau-rose.png" alt="logo-le-poteau-rose" />
-          <img src="./img/logo-shake-eat-oeuf.png" alt="logo-le-poteau-rose" />
-          <img src="./img/logo-data-bird.svg" alt="logo-data-bird" />
-          <img src="./img/logo-dimanchuitres.png" alt="logo-dimanchuitres" />
-          <img src="./img/logo-lisaa.png" alt="logo-lisaa" />
-          <img src="./img/Logo-inseec.png" alt="Logo-inseec" />
-          <img src="./img/logo_mercato.png" alt="logo_mercato" />
-          <img src="./img/Logo_EDTech.png" alt="Logo_EDTech" />
-          <img src="./img/logo-pepite.webp" alt="logo-pepite" />
-          <!-- dupliquer -->
-          <img src="./img/Logo_Europe1.png" alt="Logo_Europe1" />
-          <img src="./img/logo-je-stocke.png" alt="logo-je-stocke" />
-          <img src="./img/Logo-LPT.svg" alt="Logo-LPT" />
-          <img src="./img/logo-le-poteau-rose.png" alt="logo-le-poteau-rose" />
-          <img src="./img/logo-shake-eat-oeuf.png" alt="logo-le-poteau-rose" />
-          <img src="./img/logo-data-bird.svg" alt="logo-data-bird" />
-          <img src="./img/logo-dimanchuitres.png" alt="logo-dimanchuitres" />
-          <img src="./img/logo-lisaa.png" alt="logo-lisaa" />
-          <img src="./img/Logo-inseec.png" alt="Logo-inseec" />
-          <img src="./img/logo_mercato.png" alt="logo_mercato" />
-          <img src="./img/Logo_EDTech.png" alt="Logo_EDTech" />
-          <img src="./img/logo-pepite.webp" alt="logo-pepite" />
-        </div>
-      </div>
-      <div class="bar3"></div>
-    </section>
-
-    <section class="experience">
-      <div class="title">
-        <h2>The Webskills révolutionne l'apprentissage par l'expérience</h2>
-      </div>
-      <div class="programme-container">
-        <div class="programme">
-          <div class="programme-1">
-            <img
-              class="img-programme"
-              src="./img/programme-1.webp"
-              alt="programme-1"
-            />
-            <h3>Programmes de développement de la main-d'oeuvre</h3>
-            <p class="text-programme">
-              Nous nous associons à des établissement de formation supérieur
-              pour créer des opportunités équitables de développement de
-              carrière, permettant aux étudiants d’améliorer leur préparation au
-              marché de l’emploi par le biais de projets professionnels réels.
-            </p>
-            <a class="link-programme" href="https://www.google.fr">
-              En savoir plus <i class="fa-solid fa-hand-point-right"></i>
-            </a>
+        <div>
+          <div class="mn-pic">
+            <img src="./assets/img/pgw18home.jpg" alt="pgw 2018">
           </div>
-          <div class="programme-2">
-            <img
-              class="img-programme"
-              src="./img/programme-2.webp"
-              alt="programme-2"
-            />
-            <h3>L'apprentissage par le travail en toute simplicité</h3>
-            <p class="text-programme">
-              The Webskills est une plateforme d’apprentissage par le travail
-              qui aide les formateurs, les entreprises et les étudiants à
-              trouver et à collaborer sur des projets réels afin de combler le
-              fossé entre l’enseignement supérieur et l’emploi.
-            </p>
-            <a class="link-programme" href="https://www.google.fr">
-              En savoir plus <i class="fa-solid fa-hand-point-right"></i>
-            </a>
+          <h4>Paris Games Week 2018 et réunions d'information</h4>
+          <p>Pendant tout le mois d'octobre venez rencontrer l'équipe pédagogique du Gaming Campus : Campus Lyon et
+            stand Gaming Capus à la PGW18.</p>
+          <div class="link">
+            <a href="#">lire la suite <i class="fas fa-angle-right"></i></a>
           </div>
-          <div class="programme-1">
-            <img
-              class="img-programme"
-              src="./img/programme-3.webp"
-              alt="programme-3"
-            />
-            <h3>C'est comme un stage en entreprise, mais en mieux</h3>
-            <p class="text-programme">
-              The Webskills est une plateforme d’apprentissage par le travail
-              qui met en relation les formateurs et les employeurs afin
-              d’intégrer des projets réels dans les programmes de cours, ce qui
-              permet de créer des expériences passionnantes et pertinentes pour
-              la rédaction d’un curriculum vitae.
-            </p>
-            <a class="link-programme" href="https://www.google.fr">
-              En savoir plus <i class="fa-solid fa-hand-point-right"></i>
-            </a>
+        </div>
+        <div>
+          <div class="mn-pic">
+            <img src="./assets/img/inauguration_gaming_campus_photo.jpg" alt="inauguration GC Lyon">
+          </div>
+          <h4>Inauguration Gaming Campus Lyon</h4>
+          <p>Revivez l'inauguration du Gaming Campus Lyon avec 180 invités, les grands annonces de la rentrée, les
+            photos de la soirée et les premières dates de réunions d'information.</p>
+          <div class="link">
+            <a href="#">lire la suite <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section-wrapper">
-      <div class="texte-orange">
-        <p>
-          « La valeur que les apprenants retirent de l’apprentissage par
-          l’expérience intégré dans le programme d’études est incommensurable –
-          il offre l’occasion de mettre en pratique ce qu’ils ont appris et
-          d’améliorer leurs connaissances et leurs compétences. La chose la plus
-          importante à apprendre est ce qui se trouve au-delà de la salle de
-          classe ; The Webskills fournit la connexion à des partenaires du monde
-          réel avec des projets du monde réel pour aller au-delà de
-          l’apprentissage en salle de classe ».
-        </p>
+  <section class="contact">
+    <div class="contact-container">
+      <div class="contact-list">
+        <div class="list">
+          <div id="contact-img">
+            <img src="./assets/img/logo-gc-footer.jpg" alt="logo-end">
+          </div>
+        </div>
+        <div class="list">
+          <h5>infos pratiques</h5>
+          <ul class="infos-p">
+            <li><a href="#">Gaming Business School</a></li>
+            <li><a href="#">Gaming Academy</a></li>
+            <li><a href="#">Gaming Guru</a></li>
+            <li><a href="#">Recrutement</a></li>
+            <li><a href="#">Investisseurs</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">C.G.U</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h5>parents</h5>
+          <p>Questions / réponses pour vous accompagner dans votre réflexion sur l'orientation de votre enfant et le
+            choix de Gaming Campus.</p>
+          <a href="#">En savoir plus</a>
+        </div>
+        <div class="list">
+          <h5>nous contacter</h5>
+          <h6>Tél. 04 28 29 81 03</h6>
+          <h6>contact@gamingcampus.fr</h6>
+          <h5 class="network">nous suivre</h5>
+          <div class="footer-logos">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <p class="copyright">© 2018 Gaming Campus.</p>
+          <p>Tout droits réservés.</p>
+        </div>
       </div>
-      <img
-        class="etudiants-img"
-        src="/img/etudiants-work.webp"
-        alt="etudiants-work"
-      />
-    </section>
-  </body>
+      <div class="contact-medias">
+        <div class="medias-text">
+          <h3>ils parlent de nous</h3>
+          <p>Voir toutes les retombées presse.</p>
+        </div>
+        <div class="medias-logos">
+          <span class="img">
+            <img src="./assets/img/figaro.png" alt="le figaro">
+          </span>
+          <span class="img">
+            <img src="./assets/img/challenges.png" alt="challenges">
+          </span>
+          <span class="img">
+            <img src="./assets/img/leparisien.png" alt="le parisien">
+          </span>
+          <span class="img">
+            <img src="./assets/img/lemonde.png" alt="le monde">
+          </span>
+          <span class="img">
+            <img src="./assets/img/progres.png" alt="le progrès">
+          </span>
+          <span class="img">
+            <img src="./assets/img/echos.png" alt="les echos">
+          </span>
+          <span class="img">
+            <img src="./assets/img/bfm.png" alt="BFM tv">
+          </span>
+          <span class="img">
+            <img src="./assets/img/lepoint.png" alt="l'équipe">
+          </span>
+          <div class="img">
+          </div>
+        </div>
+  </section>
 
-  <script>
-    const counters = document.querySelectorAll(".number-style");
+  <footer>
+    <h3>partenaires officiels</h3>
+    <ul>
+      <li><img src="./assets/img/apollo.png" alt="apollo"></li>
+      <li><img src="./assets/img/chiliz.png" alt="chiliz"></li>
+      <li><img src="./assets/img/omen.png" alt="omen"></li>
+      <li><img src="./assets/img/joa.png" alt="joa"></li>
+      <li><img src="./assets/img/zol.png" alt="zol"></li>
+      <li><img src="./assets/img/maxonomic.png" alt="maxndmic"></li>
+      <li><img src="./assets/img/credit-mutuel.png" alt="credit mutuel"></li>
+      <li><img src="./assets/img/talent-web.png" alt="TW"></li>
+      <li><img src="./assets/img/ubisoft.png" alt="ubisoft"></li>
+      <li><img src="./assets/img/vitality.png" alt="vitality"></li>
+    </ul>
+  </footer>
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("in-view");
 
-            const target = +entry.target.getAttribute("data-target");
-            let value = 0;
-            const increment = target / 50;
+</body>
 
-            const interval = setInterval(() => {
-              value += increment;
-              if (value >= target) {
-                entry.target.textContent = `${target}+`;
-                clearInterval(interval);
-              } else {
-                entry.target.textContent = `${Math.floor(value)}+`;
-              }
-            }, 20);
-          } else {
-            // Reset si tu veux que ça se rejoue à chaque fois
-            entry.target.classList.remove("in-view");
-            entry.target.textContent = "0";
-          }
-        });
-      },
-      {
-        threshold: 0.5, // déclenche quand 50% de l'élément est visible
-      }
-    );
 
-    counters.forEach((counter) => {
-      observer.observe(counter);
-    });
-  </script>
+
 </html>
